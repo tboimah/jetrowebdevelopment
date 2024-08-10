@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Partner | Jetro Web Development</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/css/client_and_pattner.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">JETRO</h2>
+            <!-- Mobile Responssive Navbar -->
+            <ul class="Tech">
+                <li onclick=hideNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" 
+                    height="26px" viewBox="0 -960 960 960" width="26px" 
+                    fill="black"><path
+                     d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 
+                     224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+                </a></li>
+                <li>
+                    <div class="about">
+                        <a href="index.html" class="about_btn">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="about">
+                        <a href="#" class="about_btn">About Us</a>
+                        <div class="about_content">
+                            <a href="ourteam.html">Our Team</a>
+                            <a href="value.html">Our Value</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="about">
+                        <a class="about_btn">Our Work</a>
+                        <div class="about_content">
+                            <a href="client_and_partner.html">Client and Partners</a>
+                            <a href="project.html">Projects</a>
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="about">
+                        <a href="contact.html" class="about_btn">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Desktop Navbar -->
+            <ul>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="index.html" class="about_btn">Home</a>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="#" class="about_btn">About Us</a>
+                        <div class="about_content">
+                            <a href="ourteam.html">Our Team</a>
+                            <a href="value.html">Our Value</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a class="about_btn">Our Work</a>
+                        <div class="about_content">
+                            <a href="client_and_partner.html">Client and Pattner</a>
+                            <a href="project.html">Projects</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="contact.html" class="about_btn">Contact us</a>
+                    </div>
+                </li>
+                <li class="navBtn" onclick=showNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                    height="26px" viewBox="0 -960 960 960" width="26px" 
+                    fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+               </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="pattner">
+        <h1 class="pattner-top">Meet Our Partners</h1>
+        <div class="pattner-images" data-aos="zoom-in-up" data-aos-delay="400">
+            <div class="pattner-img">
+                <a href="https://sjcompute.org/"><img src="./static/jetro_media/SJC.png" alt="Socail_Justic_Computing"></a>
+            </div>
+            
+            <div class="pattner-img">
+               <a href="https://novawebdevelopment.org/"><img src="./static/jetro_media/novalogo.jpg" alt="Nova_Web_Development"></a>
+            </div>
+            
+            <div class="pattner-img">
+                <a href="#"><img src="./static/jetro_media/mcss.png" alt="MCSS"></a>
+            </div>
+                
+        </div>
+    </section>
+    <section class="clients">
+        <h1 class="client-top">Meet Our Clients</h1>
+        <div class="soon">
+            <h3>Coming Soon............</h3>
+        </div>
+    </section>
+    <section class="footer">
+        <h2>Jetro Web Development</h2>
+        <div class="sub-footer">
+            <div>
+                <div>
+                    <p>
+                        24th Street, Sinkor<br>
+                        Monrovia, Liberia
+                    </p>
+                    <p>
+                        Copyright © 2024<br>
+                        Licensed under Creative Commons Attribution - No Derivative Works 3.0 (or later version)<br>
+                        
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="cont">
+                        <a href="mailto:jetroweb@novawebdevelopment.org">contact@jetrowebdevelopment.org</a><br>
+                        <a href="mailto:jetroweb@novawebdevelopment.org"><i class="fas fa-envelope"></i></a> 
+                    </p>
+                </div>
+            </div>
+            
+            
+        </div>  
+            
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="static/JS/script.js"></script>
+</body>
+</html>
