@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | JETRO Web Development</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">JETRO</h2>
+            <!-- Mobile Responssive Navbar -->
+            <ul class="Tech">
+                <li onclick=hideNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" 
+                    height="26px" viewBox="0 -960 960 960" width="26px" 
+                    fill="black"><path
+                     d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 
+                     224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+                </a></li>
+                <li>
+                    <div class="about">
+                        <a href="index.html" class="about_btn">Home</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="about">
+                        <a href="#" class="about_btn">About Us</a>
+                        <div class="about_content">
+                            <a href="ourteam.html">Our Team</a>
+                            <a href="value.html">Our Value</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="about">
+                        <a class="about_btn">Our Work</a>
+                        <div class="about_content">
+                            <a href="client_and_partner.html">Client and Pattners</a>
+                            <a href="project.html">Projects</a>
+                        </div>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="about">
+                        <a href="contact.html" class="about_btn">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Desktop Navbar -->
+            <ul>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="index.html" class="about_btn">Home</a>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="#" class="about_btn">About Us</a>
+                        <div class="about_content">
+                            <a href="ourteam.html">Our Team</a>
+                            <a href="value.html">Our Value</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a class="about_btn">Our Work</a>
+                        <div class="about_content">
+                            <a href="client_and_partner.html">Client and Pattner</a>
+                            <a href="project.html">Projects</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="hideOnMobile">
+                    <div class="about">
+                        <a href="contact.html" class="about_btn">Contact us</a>
+                    </div>
+                </li>
+                <li class="navBtn" onclick=showNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                    height="26px" viewBox="0 -960 960 960" width="26px" 
+                    fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+               </svg></a></li>
+            </ul>
+        </nav>
+
+
+    <div class="row">
+        <div class="header-content">
+            <h1> We are Jetro Web development </h1>
+            <p>
+                We are a multi-generational worker-owned tech co-operative committed to economic 
+                democracy and the growth of our members. We work on human-centered technology 
+                that addresses problems facing our local communities while pursuing a social 
+                justice mission and strive to create the world we want to live in. 
+            </p>
+            <p>
+                Founded in 2022, Jetro Web Development offers design and open source web application
+                development for labor and community organizations, cooperatives, academic institutions,
+                non-profits, local government and local & sustainable businesses. 
+            </p>
+        </div>
+        <div class="hero-img">
+            <img src="./static/jetro_media/together1.jpg" alt="">
+        </div>
+    </div>
+</header>
+    <!--Services-->
+    <section class="services">
+        <h1>Our Services</h1>
+        <div class="container">
+            <div class="services-content">
+                <div>
+                    <h4>Custom Application Development</h4>
+                    <p>
+                        We build custom applications that suit your needs and allow you to efficiently
+                        accomplish your goals: association management, front-end design, data visualization,
+                        and more.
+        
+                    </p>
+                </div>
+                <div>
+                    <h4>Technology Partnerships</h4>
+                    <p>
+                        <ul>
+                            <li>Open Source Software Hosting, Configuration & Maintenance</li>
+                            <li>Platform Coop Development</li>
+                            <li>New Product Development</li>
+                            <li>Digital & Data Driven Collaborations</li>
+                        </ul>  
+                    </p>
+                </div>
+                <div>
+                    <h4>Digital & Data Transformation</h4>
+                    <p>
+                        We help organizations transition to digital services that are integrated
+                        with your core processes.
+        
+                    </p>
+                </div>
+                <div>
+                    <h4>Consulting & Staff Augmentation</h4>
+                    <p>
+                        <ul>
+                            <li>Digital, Brand & Social Media Design</li>
+                            <li>User Experience Design & Strategy</li>
+                            <li>Django/Python Development</li>
+                            <li>For Additional Services Contact us</li>
+                        </ul>
+                    </p>
+            
+                </div>
+                
+            </div>
+           <div class="services-img">
+             <img src="./static/jetro_media/computer.png">
+           </div>
+        </div>
+    </section>
+    <!--Technologies-->
+    <section class="technologies">
+        <h1 class="tech-top">Technologies</h1>
+        <p class="tech-pragh">
+            We use a variety of technologies to build your custom applications: HTML, CSS, Python, Django, 
+            Wagtail, Penpot, Krita, and Bootstrap. If you have sticter requirements or would like us to a 
+            specific toolset, don't be afraid to reach out. 
+        </p>
+        <div class="container" data-aos="zoom-in-up" data-aos-delay="400">
+            <div class="grid-wrapper">
+                <div class="grid-box mobileapp">
+                    <img src="./static/jetro_media/jetro.svg" alt>
+                    <h1>Html</h1>
+                </div>
+                <div class="grid-box webdesign">
+                    <img src="./static/jetro_media/jetro2.svg" alt>
+                    <h1>CSS</h1>
+                </div>
+                <div class="grid-box marketing">
+                    <img src="./static/jetro_media/jetro3.svg" alt>
+                    <h1>Python</h1>
+                </div>
+                <div class="grid-box branding">
+                    <img src="./static/jetro_media/jetro4.svg" alt>
+                    <h1>Django</h1>
+                </div>
+                <div class="grid-box branding">
+                    <img src="./static/jetro_media/jetro5.svg" alt>
+                    <h1>Wagtail</h1>
+                </div>
+                <div class="grid-box branding">
+                    <img src="./static/jetro_media/jetro6.svg" alt>
+                    <h1>Penpot</h1>
+                </div>
+                <div class="grid-box branding">
+                    <img src="./static/jetro_media/jetro7.svg" alt>
+                    <h1>Krita</h1>
+                </div>
+                <div class="grid-box branding">
+                    <img src="./static/jetro_media/jetro8.svg" alt>
+                    <h1>Bootstrap</h1>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Numbers-->
+    <section class="numbers">
+        <h1 class="num-text">We lead from front</h1>
+        <p>
+           Below are the number of our  Happy Clients, Projects Completed, Runing Projects and Awersome Designs.  
+        </p>
+        <div class="container" data-aos="slide-right" data-aos-delay="400">
+            <div class="num-wrapper">
+                <div class="grid-box hpyclients">
+                    <h1>000</h1>
+                    <h2>Happy Clients</h2>
+                </div>
+            
+                <div class="grid-box prjcompleted">
+                    <h1>000</h1>
+                    <h2>Projects Completed</h2>
+                </div>
+                <div class="grid-box runingprj">
+                    <h1>000</h1>
+                    <h2>Runing Projects</h2>
+                </div>
+                <div class="grid-box designs">
+                    <h1>000</h1>
+                    <h2>Awersome Designs</h2>
+                </div>
+            </div>
+            <div class="mockup-img">
+                <img src="static/jetro_media/team.jpg" alt="team">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h2>Jetro Web Development</h2>
+        <div class="sub-footer">
+            <div>
+                <div>
+                    <p>
+                        24th Street, Sinkor<br>
+                        Monrovia, Liberia
+                    </p>
+                    <p>
+                        Copyright © 2024<br>
+                        Licensed under Creative Commons Attribution - No Derivative Works 3.0 (or later version)<br>
+                        
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="cont">
+                        <a href="mailto:jetroweb@novawebdevelopment.org">contact@jetrowebdevelopment.org</a><br>
+                        <a href="mailto:jetroweb@novawebdevelopment.org"><i class="fas fa-envelope"></i></a> 
+                    </p>
+                </div>
+            </div>
+            
+            
+        </div>  
+            
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="static/JS/script.js"></script>
+</body>
+</html>
