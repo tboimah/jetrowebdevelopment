@@ -269,7 +269,7 @@ body {
     margin-top: 80px;
     background: darkslateblue;
     padding-top: 30px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .tech-top{
     /* margin-left: 15rem; */
@@ -288,6 +288,7 @@ body {
 .container{
     padding: 3rem;
     display: flex;
+    overflow: hidden;
 }
 .grid-wrapper{
     flex-basis: 100%;
@@ -356,6 +357,8 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     grid-gap: 2em;
     padding: 2rem;
+    overflow-x: hidden;
+    overflow: hidden;
 }
 .numbers .grid-box h1{
     font-size: 40px;

@@ -203,7 +203,7 @@ body {
 }
 .pattner-img{
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     /* position: relative; */
 }
 .pattner-img img{
