@@ -9,6 +9,7 @@ html{
 }
 body{
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 body h1{
     color: #282f59;
@@ -181,6 +182,17 @@ body {
     .navbar .hideOnMobile{
         display: none;
     }
+
+    .hero-img{
+        /* margin-left: 50px; */
+        display: none;
+    }
+    .hero-img img{
+        display: none;
+    
+    }
+    
+    
     
 }
 @media(min-width: 851px){

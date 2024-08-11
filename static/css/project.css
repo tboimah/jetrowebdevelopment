@@ -6,6 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
 header{
     /* background-image: url("images/tb7.jpeg"); */
     /* background-repeat: no-repeat;

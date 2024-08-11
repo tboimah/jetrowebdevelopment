@@ -8,6 +8,7 @@ html{
 }
 body{
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 body h1{
     color: #282f59;
