@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 body h1{
     color: #282f59;
@@ -203,7 +203,7 @@ body {
 }
 .pattner-img{
     height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     /* position: relative; */
 }
 .pattner-img img{
