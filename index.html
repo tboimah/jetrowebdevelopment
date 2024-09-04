@@ -1,175 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | JETRO Web Development</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="static/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jetro Website</title>
+
+
+    
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/projectstyle.css">
+
+	
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">JETRO</h2>
-            <!-- Mobile Responssive Navbar -->
-            <ul class="Tech">
-                <li onclick=hideNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" 
-                    height="26px" viewBox="0 -960 960 960" width="26px" 
-                    fill="black"><path
-                     d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 
-                     224 224 224-56 56-224-224-224 224Z"/>
-                </svg>
-                </a></li>
-                <li>
-                    <div class="about">
-                        <a href="/" class="about_btn">Home</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="about">
-                        <a href="#" class="about_btn">About Us</a>
-                        <div class="about_content">
-                            <a href="ourteam">Our Team</a>
-                            <a href="value">Our Value</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="about">
-                        <a class="about_btn">Our Work</a>
-                        <div class="about_content">
-                            <a href="client_and_partner">Client and Pattners</a>
-                            <a href="project">Projects</a>
-                        </div>
-                    </div>
-                </li>
-            
-                <li>
-                    <div class="about">
-                        <a href="contact" class="about_btn">Contact Us</a>
-                    </div>
-                </li>
-            </ul>
-            <!-- Desktop Navbar -->
-            <ul>
-                <li class="hideOnMobile">
-                    <div class="about">
-                        <a href="/" class="about_btn">Home</a>
-                    </div>
-                </li>
-                <li class="hideOnMobile">
-                    <div class="about">
-                        <a href="#" class="about_btn">About Us</a>
-                        <div class="about_content">
-                            <a href="ourteam">Our Team</a>
-                            <a href="value">Our Value</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="hideOnMobile">
-                    <div class="about">
-                        <a class="about_btn">Our Work</a>
-                        <div class="about_content">
-                            <a href="client_and_partner">Client and Pattner</a>
-                            <a href="project">Projects</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="hideOnMobile">
-                    <div class="about">
-                        <a href="contact" class="about_btn">Contact us</a>
-                    </div>
-                </li>
-                <li class="navBtn" onclick=showNavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
-                    height="26px" viewBox="0 -960 960 960" width="26px" 
-                    fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-               </svg></a></li>
-            </ul>
-        </nav>
+	<div id="hero">
+		<header id="main-header">
+			<a href="/"> Jetro Web Dev.</a>
 
+			<nav>
+				<ul>
+                    <li><a href="index.html">Home</a></li>
+					<li class="has-submenu">
+						<a href="about.html">About Us</a>
 
-    <div class="row">
-        <div class="header-content">
-            <h1> We are Jetro Web Development </h1>
-            <p>
-                We are a multi-generational worker-owned tech co-operative committed to economic 
-                democracy and the growth of our members. We work on human-centered technology 
-                that addresses problems facing our local communities while pursuing a social 
-                justice mission and strive to create the world we want to live in. 
-            </p>
-            <p>
-                Founded in 2022, Jetro Web Development offers design and open source web application
-                development for labor and community organizations, cooperatives, academic institutions,
-                non-profits, local government and local & sustainable businesses. 
-            </p>
-        </div>
-        <div class="hero-img">
-            <img src="./static/jetro_media/together1.jpg" alt="">
-        </div>
-    </div>
-</header>
-    <!--Services-->
-    <section class="services">
-        <h1>Our Services</h1>
-        <div class="container">
-            <div class="services-content">
-                <div>
-                    <h4>Custom Application Development</h4>
-                    <p>
-                        We build custom applications that suit your needs and allow you to efficiently
-                        accomplish your goals: association management, front-end design, data visualization,
-                        and more.
-        
-                    </p>
-                </div>
-                <div>
-                    <h4>Technology Partnerships</h4>
-                    <p>
-                        <ul>
-                            <li>Open Source Software Hosting, Configuration & Maintenance</li>
-                            <li>Platform Coop Development</li>
-                            <li>New Product Development</li>
-                            <li>Digital & Data Driven Collaborations</li>
-                        </ul>  
-                    </p>
-                </div>
-                <div>
-                    <h4>Digital & Data Transformation</h4>
-                    <p>
-                        We help organizations transition to digital services that are integrated
-                        with your core processes.
-        
-                    </p>
-                </div>
-                <div>
-                    <h4>Consulting & Staff Augmentation</h4>
-                    <p>
-                        <ul>
-                            <li>Digital, Brand & Social Media Design</li>
-                            <li>User Experience Design & Strategy</li>
-                            <li>Django/Python Development</li>
-                            <li>For Additional Services Contact us</li>
-                        </ul>
-                    </p>
-            
-                </div>
-                
+						<ul>
+							<li><a href="ourteam.html">Our Team</a></li>
+							<li><a href="ourvalue.html">Our Value</a></li>
+				
+						</ul>
+					</li>
+
+                    <li class="has-submenu">
+						<a href="#">Our Work</a>
+
+						<ul>
+							<li><a href="#">Client & Partner</a></li>
+							<li><a href="#">Project</a></li>
+				
+						</ul>
+					</li>
+			
+				</ul>
+			</nav>
+
+			<div class="windowButton">
+                <span class="window"></span>
+                <span class="window"></span>
+                <span class="window"></span>
             </div>
-           <div class="services-img">
-             <img src="./static/jetro_media/computer.png">
-           </div>
-        </div>
-    </section>
-    <!--Technologies-->
-    <section class="technologies">
-        <h1 class="tech-top">Technologies</h1>
-        <p class="tech-pragh">
+		</header>
+
+        <section class="intro-content">
+            <!-- =======jetro intro ============= -->
+            <div class="jetro-intro">
+                <div class="about-jetro">
+                    <h1>Jetro Web Development</h1>
+                    <p>We are a multi-generational worker-owned tech co-operative committed to 
+                        economic democracy and the growth of our members. We work on human-centered technology 
+                        that addresses problems facing our local communities while pursuing 
+                        a social justice mission and strive to create the world we want to live in.
+
+                        Founded in 2022, Jetro Web Development offers design and 
+                        open source web application development for labor and community 
+                        organizations, cooperatives, academic institutions, non-profits, 
+                        local government and local & sustainable businesses.</p>
+                </div>
+
+                <figure>
+                    <img scr="">
+                    <h3></h3>
+                </figure>
+           
+
+            </div>
+
+            <!-- =========jetro intro end here=========== -->
+
+           
+        </section>
+
+
+        <section class="service-content">
+
+            <!-- =======service intro ============= -->
+            <div class="services">
+
+                <div class="service-description"> <!--==Service Description==-->
+                    <h2>Our Services</h2>
+                    <div class="works">
+
+                        <div class="work">
+                            <div class="work-we-do">
+                                <h4>Custom Application Development</h4>
+                                <p>
+                                    We are a multi-generational worker-owned tech co-operative committed to 
+                                    economic democracy and the growth of our members.
+                                    We work on human-centered technology
+                              .</p>
+        
+                            </div>
+    
+                            <div class="work-we-do">
+                                <h4>Technology Partnerships</h4>
+                                <p>
+                                    We are a multi-generational worker-owned tech co-operative committed to 
+                                    economic democracy and the growth of our members.
+                                    We work on human-centered technology
+                              .</p>
+        
+                            </div>
+
+
+                            <div class="work-we-do">
+                                <h4>Digital & Data Tranformation </h4>
+                                <p>
+                                    We are a multi-generational worker-owned tech co-operative committed to 
+                                    economic democracy and the growth of our members.
+                                    We work on human-centered technology
+                              .</p>
+        
+                            </div>
+
+
+                            <div class="work-we-do">
+                                <h4>Consulting & Staff Augmentation</h4>
+                                <p>
+                                    We are a multi-generational worker-owned tech co-operative committed to 
+                                    economic democracy and the growth of our members.
+                                    We work on human-centered technology
+                              .</p>
+        
+                            </div>
+                        </div>
+                        
+
+                        <div class="work-img">
+                            <img src="static/jetro_media/computer.png" alt="computer image">
+    
+                        </div>
+
+                    </div>
+                   
+
+                  
+                </div> <!--End of Description-->
+
+            </div> <!--End of Service content-->
+
+           
+        </section>  <!-- ===========end service=============== -->
+
+
+
+             
+    <section class="technologies"> <!--Technologies-->
+
+        <div class="technolog-intro">
+            <h1 class="tech-top">Technologies</h1>
+            <p class="tech-pragh">
             We use a variety of technologies to build your custom applications: HTML, CSS, Python, Django, 
             Wagtail, Penpot, Krita, and Bootstrap. If you have sticter requirements or would like us to a 
-            specific toolset, don't be afraid to reach out. 
-        </p>
+            specific toolset, don't be afraid to reach out. </p>
+
+        </div>
+      
+       
+
         <div class="container" data-aos="zoom-in-up" data-aos-delay="400">
+
             <div class="grid-wrapper">
                 <div class="grid-box mobileapp">
                     <img src="./static/jetro_media/jetro.svg" alt>
@@ -203,11 +204,13 @@
                     <img src="./static/jetro_media/jetro8.svg" alt>
                     <h1>Bootstrap</h1>
                 </div>
+
             </div>
-            
         </div>
-    </section>
-    <!--Numbers-->
+
+    </section><!--=====End of Technology Section ======-->
+
+
     <section class="numbers">
         <h1 class="num-text">We lead from front</h1>
         <p>
@@ -238,8 +241,12 @@
             </div>
         </div>
     </section>
+
+
+
     <section class="footer">
         <h2>Jetro Web Development</h2>
+        
         <div class="sub-footer">
             <div>
                 <div>
@@ -268,10 +275,8 @@
         </div>  
             
     </section>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="static/JS/script.js"></script>
+
+
+  
 </body>
 </html>

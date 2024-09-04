@@ -8,6 +8,14 @@
  /**
    * Jetro Window bar variable & function
    */
+
+ const windowButton = document.querySelector('.windowButon');
+
+ windowButton.addEventListener('click', () => {
+  windowButton.classList.toggle('active');
+ })
+
+
  function showNavbar(){
   const navBar = document.querySelector(".Tech")
   navBar.style.display = "flex"
