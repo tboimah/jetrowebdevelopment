@@ -13,53 +13,53 @@
 	
 </head>
 <body>
-	<div id="hero">
-		<header id="main-header">
-			<a href="/"> Jetro Web Dev.</a>
+    <div id="hero"><!--Hero section -->
 
-			<nav>
-				<ul>
+        <header id="main-header">
+		    <a href="#"> Jetro Web Dev.</a>
+            <nav class="nav">
+
+                <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
-					<li class="has-submenu">
-						<a href="about.html">About Us</a>
+                    
+                    <li class="has-submenu">
+                        <a href="ourteam.html">About Us</a>
+                        <ul>
+                            <li><a href="ourteam.html">Our Team</a></li>
+                            <li><a href="#">Our Value</a></li>
+                        
+                        </ul>
 
-						<ul>
-							<li><a href="ourteam.html">Our Team</a></li>
-							<li><a href="ourvalue.html">Our Value</a></li>
-				
-						</ul>
-					</li>
+                    </li>
 
                     <li class="has-submenu">
-						<a href="#">Our Work</a>
+                        <a href="#">Our Work</a>
+                        <ul>
+                            <li><a href="#">Client & Partner</a></li>
+                            <li><a href="#">Project</a></li>
+                    
+                        </ul>
+                    </li>
+                
+                </ul>
 
-						<ul>
-							<li><a href="#">Client & Partner</a></li>
-							<li><a href="#">Project</a></li>
-				
-						</ul>
-					</li>
-			
-				</ul>
-			</nav>
+            </nav>
 
-			<div class="windowButton">
+            <div class="windowButton">
                 <span class="window"></span>
                 <span class="window"></span>
                 <span class="window"></span>
             </div>
-		</header>
+	    </header>
 
-        <br>
-        <br>
-        <br>
+    </div><!--==== End of Hero Section ====-->
 
     <section class="team">
 
         <div class="about-team"> <!--about team-->
-            <header>
+            <header class="team-header">
                 <h2>Our Members</h2>
-                <p>Our team comprises of seven members, each specializing in 
+                <p>Our team comprises of eight members, each specializing in 
                     different fields. When we combine our expertise, it brings our work to life, 
                     which is why we are considered a team of inspiring developers.</p>
             </header>
@@ -69,16 +69,19 @@
             <section>
                 <ul class="gallery">
 
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/daniel_cammue_sm.jpg" alt="Daniel picture"></a>
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/daniel_cammue_sm.jpg" alt="Daniel picture"></a>
                             <figcaption>
                                 <main>
                                     <h3>Daniel Cammue, <em>Member/Owner</em></h3>
-                                        <p>Daniel is a web developer and a python certified programer at Jetroweb development co-orp in Liberia.
-                                            He graduated from the William V.S. Tubman High School in 2023 in Liberia and have been studing web development with
-                                            <a href="https://weblog.elkner.net/">Jeffrey Elkner</a> for the pass two years.
-                                            Daniel obtained the</p>
+                                    <p>Daniel is a certified  immediate python programer at Jetroweb Development co-orp in Liberia.
+                                        he graduated from the William V.S. Tubman High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Daniel and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
                                     </main>
 
                                     <footer>
@@ -93,136 +96,21 @@
                         </figure>
                     </li>
 
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/freenak.jpg" alt="Daniel picture"></a>
-                            <figcaption>
-                                <main>
-                                    <h3>Freena S. Koikoi, <em>Member/Owner</em></h3>
-                                        <p>Freena is a python certified programer at Jetroweb Development co-orp in Liberia.
-                                            Freena graduated from the William V.S. Tubman High School in Liberia in 2022.
-                                            and she obtained the python certified
-                                             in 2024. she has been studing with Jeffrey Elkner for the pass two years.
-                                             <a href="https://weblog.elkner.net/" target="_blank">Jeffrey Elkner</a> for the pass two years.
-                                            Daniel obtained the</p>
-                                    </main>
-            
-                                    <footer>
-                                        <div>
-                                            <p class="each-member-pro">Profolic site</p>
-                                            <p class="profolic">coming soon</p>
-                                        </div>
-                                    </footer>
 
-                            </figcaption>
-                                
-                        </figure>
-                    </li>
-
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/thomas.jpg" alt="Daniel picture"></a>
-                            <figcaption>
-                                <main>
-                                    <h3>Thomas Boimah, <em>Member/Owner</em></h3>
-                                        <p></p>
-                                    </main>
-            
-                                    <footer>
-                                        <div>
-                                            <p class="each-member-pro">Profolic coming soon</p>
-                                            <p class="profolic-link"></p>
-                                        </div>
-                                    </footer>
-
-                            </figcaption>
-                                
-                        </figure>
-                    </li>
-
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/shallon_vaye_sm.jpg" alt="Daniel picture"></a>
-                            <figcaption>
-                                <main>
-                                    <h3>Shallon Vaye, <em>Member/Owner</em></h3>
-                                        <p>Shallon is a web developer and a python certified programer at Jetroweb development co-orp in Liberia.
-                                            She graduated from the William V.S. Tubman High School in 2023 in Liberia and have been studing web development with <a href="https://weblog.elkner.net/">Jeffrey Elkner</a> for the pass two years.
-                                            Daniel obtained the</p>
-                                    </main>
-            
-                                    <footer>
-                                        <div>
-                                            <p class="each-member-pro">Profolic site</p>
-                                            <p class="profolic">coming soon</p>
-                                        </div>
-                                    </footer>
-
-                            </figcaption>
-                                
-                        </figure>
-                    </li>
-
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/mulbah2.jpg" alt="Daniel picture"></a>
-                            <figcaption>
-                                <main>
-                                    <h3>Mulbah Kolleh, <em>Member/Owner</em></h3>
-                                        <p>Mulbah is a web developer and a python certified programer at Jetroweb development co-orp in Liberia.
-                                            She graduated from the William V.S. Tubman High School in 2023 in Liberia and have been studing web development with <a href="https://weblog.elkner.net/">Jeffrey Elkner</a> for the pass two years.
-                                            Daniel obtained the</p>
-                                    </main>
-            
-                                    <footer>
-                                        <div>
-                                            <p class="each-member-pro">Profolic site</p>
-                                            <p class="profolic">coming soon</p>
-                                        </div>
-                                    </footer>
-
-                            </figcaption>
-                                
-                        </figure>
-                    </li>
-
-
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/janet.jpg" alt="Daniel picture"></a>
-                            <figcaption>
-                                <main>
-                                    <h3>Janet Kollie, <em>Member/Owner</em></h3>
-                                        <p>Janet is a web developer a prospective graduate of The G.W.Gibson High School.
-                                            In 2022 she had an encouter will <a href="https://weblog.elkner.net/"><mark>Jeffrey Elkner (2022)</mark></a>
-                                        
-                                        </p>
-                                    </main>
-            
-                                    <footer>
-                                        <div>
-                                            <p class="each-member-pro">Profolic site</p>
-                                            <p class="profolic">coming soon</p>
-                                        </div>
-                                    </footer>
-
-                            </figcaption>
-                                
-                        </figure>
-                    </li>
-
-
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/spencer.jpg" alt="Daniel picture"></a>
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/spencer.jpg" alt="Spencer picture"></a>
                             <figcaption>
                                 <main>
                                     <h3>Spencer Cooper, <em>Member/Owner</em></h3>
-                                        <p>Spencer is a Freelance Designer & Developer at Jetro Web Developer.
-                                        his ethusaism for programming started the very day he was introduced to <a href="https://weblog.elkner.net/"> <mark>Jeffrey Elkner (2022)</mark></a> by
-                                        Mr. Isaac Saye-Lakpor Zawolo former Superintendent (MCSS)</p>
+                                    <p>Spencer is a Freelance Designer & Developer at Jetro Web Developer.
+                                        his ethusaism for programming started the very day he was introduced to<mark> Jeffrey Elkner (2022) </mark> by Mr. Isaac Saye-Lakpor Zawolo former Superintendent (MCSS)
+                                        who is a close allian to Jeff.
+                                        Before Jeffrey departure to America he asked Spencer and the other seven to found a worker cooperation which is now called Jetro Web Development.
+
+                                    </p>
                                     </main>
-            
+
                                     <footer>
                                         <div>
                                             <p class="each-member-pro">Profolic site</p>
@@ -236,20 +124,160 @@
                     </li>
 
 
-                    <li>
-                        <figure>
-                            <a href="#"><img src="static/jetro_media/gabriel.jpg" alt="Daniel picture"></a>
+                    
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/freenak.jpg" alt="Freena picture"></a>
+                            <figcaption>
+                                <main>
+                                    <h3>Freena Koikoi, <em>Member/Owner</em></h3>
+                                    <p>Daniel is a certified  immediate python programer at Jetroweb Development co-orp in Liberia.
+                                        he graduated from the William V.S. Tubman High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Freena and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
+                                    </main>
+
+                                    <footer>
+                                        <div>
+                                            <p class="each-member-pro">Profolic site</p>
+                                            <p class="profolic">coming soon</p>
+                                        </div>
+                                    </footer>
+
+                            </figcaption>
+                                
+                        </figure>
+                    </li>
+
+
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/thomas.jpg" alt="Thomas picture"></a>
+                            <figcaption>
+                                <main>
+                                    <h3>Thomas Boimah, <em>Member/Owner</em></h3>
+                                    <p>Daniel is a certified  immediate python programer at Jetroweb Development co-orp in Liberia.
+                                        he graduated from the William V.S. Tubman High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Freena and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
+                                    </main>
+
+                                    <footer>
+                                        <div>
+                                            <p class="each-member-pro">Profolic site</p>
+                                            <p class="profolic">coming soon</p>
+                                        </div>
+                                    </footer>
+
+                            </figcaption>
+                                
+                        </figure>
+                    </li>
+
+
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/shallon_vaye_sm.jpg" alt="Shallon picture"></a>
+                            <figcaption>
+                                <main>
+                                    <h3>Shallon S. Vaye, <em>Member/Owner</em></h3>
+                                    <p>Shallon is a Web Developer at Jetroweb Development co-orp in Liberia.
+                                        she graduated from the William V.S. Tubman High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Shallon and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
+                                    </main>
+
+                                    <footer>
+                                        <div>
+                                            <p class="each-member-pro">Profolic site</p>
+                                            <p class="profolic">coming soon</p>
+                                        </div>
+                                    </footer>
+
+                            </figcaption>
+                                
+                        </figure>
+                    </li>
+
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/mulbah2.jpg" alt="Mulbah picture"></a>
+                            <figcaption>
+                                <main>
+                                    <h3>Mulbah Kolleah, <em>Member/Owner</em></h3>
+                                    <p>Mulbah is a certified  immediate python programer at Jetroweb Development co-orp in Liberia.
+                                        he graduated from the D.Twe Memorial High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Mulbah and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
+                                    </main>
+
+                                    <footer>
+                                        <div>
+                                            <p class="each-member-pro">Profolic site</p>
+                                            <p class="profolic">coming soon</p>
+                                        </div>
+                                    </footer>
+
+                            </figcaption>
+                                
+                        </figure>
+                    </li>
+
+
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/janet.jpg" alt="Janet picture"></a>
+                            <figcaption>
+                                <main>
+                                    <h3>Janet Kollie, <em>Member/Owner</em></h3>
+                                    <p>Janet is a Web Developer at Jetroweb Development co-orp in Liberia.
+                                        she is a propspective graduate of the G.W. Gibson High School Academic (2024), and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Janet and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
+                                    </main>
+
+                                    <footer>
+                                        <div>
+                                            <p class="each-member-pro">Profolic site</p>
+                                            <p class="profolic">coming soon</p>
+                                        </div>
+                                    </footer>
+
+                            </figcaption>
+                                
+                        </figure>
+                    </li>
+
+                    <li class="about-each-mem">
+                        <figure class="mem-img-bio">
+                            <a href="https://weblog.elkner.net/" title="Click the image to know more about Jeff" target="_blank"><img src="static/jetro_media/gabriel.jpg" alt="Gabriel picture"></a>
                             <figcaption>
                                 <main>
                                     <h3>Gabriel Washington, <em>Member/Owner</em></h3>
-                                        <p>Gabriel is someone who is passionate about what he does,
-                                            especially in the realm of programming he alway 
-                                            in the habbit of experiemening thing to know the outcome.
-                                            Gabriel auxiety for computer being whe he encouter.
-                                            <a href="https://weblog.elkner.net/"> <mark>Jeffrey Elkner (2022)</mark></a> by
-                                        </p>
+                                    <p>Mulbah is a certified  immediate python programer at Jetroweb Development co-orp in Liberia.
+                                        he graduated from the D.Twe Memorial High School 2023, and where selected among
+                                        forty five (45) students to study introduction to programming.
+                                        After that training climax by <mark>Jeffrey Elkner (2022)</mark> a renowed Computer Professor
+                                        at The Arlington Career School Center and a major contributor to book <q>Think Python</q> by <b>Allen Doweney</b>.
+                                        Before Jeffrey departure to America he asked Mulbah and the other seven to found a worker cooperation called Jetro Web Development.
+                                    </p>
                                     </main>
-            
+
                                     <footer>
                                         <div>
                                             <p class="each-member-pro">Profolic site</p>
@@ -261,11 +289,9 @@
                                 
                         </figure>
                     </li>
-        
-        
-                    
-                    
-                    
+
+
+                   
                 </ul>
             </section>
         
@@ -274,20 +300,10 @@
 
 
 
-        </div> <!--End of Team Container -->
+        </div> <!--about team -->
 
     </section> <!--End of Team Section-->
 
-
-    <!-- ===========New About Team Coming Soon============= -->
-
-    
-
-
-
-    <!-- ==============End here=================================== -->
-
-        
 
 
     <section class="footer">
@@ -323,9 +339,6 @@
     </section>
 
 
-<script src="static/JS/script.js"></script>
-
-
-  
+<script src="static/JS/script.js"></script>  
 </body>
 </html>
