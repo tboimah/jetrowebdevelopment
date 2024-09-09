@@ -33,7 +33,7 @@ header{
     background: rgb(0, 0, 250, 0.512);
 }
 .logo{
-    width: 120px;
+    /* width: 120px; */
 }
 .ctn {
     padding: 10px 20px;
@@ -127,7 +127,7 @@ body {
     /* height: 90px; */
     margin-left: 10px;
     color: blue;
-    font-size: 40px;
+    /* font-size: 40px; */
     /* box-shadow: 2px 2px 2px 2px darkblue; */
 }
 .Tech ul{

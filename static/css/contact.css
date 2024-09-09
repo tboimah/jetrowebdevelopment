@@ -27,10 +27,10 @@ header{
     background: rgb(0, 0, 250, 0.512);
 }
 .logo{
-    margin-left: 10px;
+    /* margin-left: 10px;
     color: blue;
     font-size: 40px;
-    
+     */
 }
 .ctn {
     padding: 10px 20px;
@@ -119,10 +119,12 @@ body {
 /* mobile responsive */
 
 .logo {
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-    border-radius: 20px;
+    /* width: 90px; */
+    /* height: 90px; */
+    margin-left: 10px;
+    color: blue;
+    /* font-size: 40px; */
+    /* box-shadow: 2px 2px 2px 2px darkblue; */
 }
 .Tech ul{
     flex: 1;
