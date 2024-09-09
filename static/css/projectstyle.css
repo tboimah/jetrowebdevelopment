@@ -20,6 +20,7 @@
 			background-color: #151618;
 			height: 30vh;
 			padding-top: 3rem;
+			background-color : whitesmoke;
 		}
 
 		#main-header{
@@ -37,7 +38,7 @@
         #main-header a{
             font-size : 2rem;
             text-decoration: none;
-            color : white;
+			color : black;
         }
 		#main-header nav ul a{
 			font-size : 1.5rem;
@@ -96,7 +97,7 @@
 			position: absolute;
 			top: 90%;
 			left: -9rem;
-			background-color: #212224;
+			background-color : whitesmoke;
 			border-radius: .5rem;
 			padding: .5rem;
 			display : block;
@@ -128,8 +129,8 @@
 		}
 
 		.has-submenu ul a:hover {
-			background-color: #2C2D2F;
 			padding: 1rem 1.5rem;
+			background-color : rgba(255, 255, 255, 0.938);
 		}
 
 		.has-submenu ul a:hover::after {
@@ -205,8 +206,20 @@
             align-items: left;
             padding :0;
         }
+
+		.jetro-intro figure{
+			width : 60%;
+			margin : 0 4px;
+			border-radius: 3px;
+		}
+
+		.jetro-intro figure img{
+			width : 100%;
+			object-fit: cover;
+		}
 		.team{
 			width : 100%;
+			border-radius: 3px;
 
 		}
 
@@ -316,8 +329,8 @@
 			flex-direction: column;
             margin : 14px 0;
             padding :0;
-			justify-content: space-evenly;
-            /* justify-content: flex-start; */
+			/* justify-content: space-evenly; */
+            justify-content: flex-start;
             width : 55%;
 
         }
@@ -330,17 +343,22 @@
 			/* box-shadow: 0 2px 3px rgba(15, 14, 44, .8); */
 			border-radius: .5em;
 			padding : .8em 0;
+			width : 100%;
         }
 
         .work-img{
-            width : 40%;
-			max-width : 800px;
-			padding : 34px;
-			align-items: right;
+            width : 70%;
+			max-width : 600px;
+			padding : 0;
+			align-items: left;
+			margin : 5px auto;
+			
         }
 		.work-img img{
 			width : 100%;
 			object-fit: cover;
+			margin : 0;
+			padding : 10px;
 		}
 
 		.row {
@@ -387,7 +405,7 @@
 			padding: 2rem;
 			text-align: center;
 			border-radius: 5px;
-			width : 80%; 
+			width : 100%; 
 			transition: 3ms ease-in-out;  
 		}
 		.grid-box:hover{
@@ -400,16 +418,17 @@
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 			grid-gap: 2em;
-			padding: 2rem;
+			padding: 6rem;
 		}
 		.grid-box img{
 			width: 100%;
+			max-width : 90px;
 			height: 80px;
 			margin-bottom: 20px;
 			animation: scaleup 2s ease-in-out infinite;
-
 			
 		}
+
 		
 		.grid-box h1{
 			color: whitesmoke;
@@ -624,6 +643,7 @@
 
 
 /* ====================== Mobile Layout for index page =============================== */
+
 @media (max-width : 660px){
 	.windowButton{
 		display : block;
@@ -694,6 +714,12 @@
 		color : white;
 	}
 
+	.jetro-intro figure img{
+		width : 160%;
+		padding : 0 3px;
+
+	}
+
 	.works{
 		flex-direction: column;
 		margin : 14px 0;
@@ -703,7 +729,18 @@
 	}
 	.work{
 		width : 100%;
+		flex-direction: column;
+
 	}
+
+
+	.work-we-do{
+		border-radius: .5em;
+		padding : .8em 0;
+		width : 200%;
+	
+	}
+
 
 	.work-img{
 		width : 100%;
@@ -739,7 +776,7 @@
 		top : 95px;
 		gap : 0;
 		flex-direction: column;
-		background-color: #212224;
+		background-color : whitesmoke;
 		width : 38%;
 		text-align: center;
 		transition-duration : var(--def-transition-duration);
@@ -788,6 +825,13 @@
 		color : white;
 	}
 
+	.jetro-intro figure img{
+		width : 160%;
+		padding : 0 3px;
+
+	}
+
+
 	.works{
 		flex-direction: column;
 		margin : 14px 0;
@@ -798,9 +842,15 @@
 	.work{
 		width : 100%;
 	}
+	.work-we-do{
+		border-radius: .5em;
+		padding : .8em 0;
+		width : 200%;
+	
+	}
 
 	.work-img{
-		width : 60%;
+		width : 100%;
 		padding : 0;
 		margin : 0;
 		align-items: center;
