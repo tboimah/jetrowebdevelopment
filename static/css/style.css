@@ -17,12 +17,12 @@ body h1{
     color: #282f59;
 }
 header{
+    /* background-image: url("images/tb7.jpeg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     min-height: 100vh;
     box-shadow: var(border-box);
 }
-/* header{
-    background-color : black;
-} */
 .row {
     display: flex;
     align-items: center;
@@ -271,7 +271,6 @@ body {
     padding-top: 30px;
     overflow: hidden;
 }
-
 .tech-top{
     /* margin-left: 15rem; */
     font-size: 6vmin;
