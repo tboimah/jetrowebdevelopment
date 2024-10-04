@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 :root {
 			--def-transition-duration: .3s;
 		}
@@ -1246,6 +1249,114 @@
 	transform: translateX(0);
 	
 }
+.event-section p{
+	width : 95%;
+	margin : 0 auto;
+}
+
+/* =====Client & Partner======= */
+.sponsor-content{
+	background-color: rgb(100, 81, 230);
+	width : 100%;
+	padding : 14px 0;
+}
+
+.sponsors{
+	width: 90%;
+	margin: 0 auto;
+	display : flex;
+	justify-content: space-between;
+	align-items: left;
+	padding :0;
+	padding-top : 10%;
+	padding-bottom : 5%;
+}
+
+
+.about-sponsor{
+	width : 100%;
+	padding : 24p 0x;
+	color : white;
+	align-items: center;
+	
+}
+.about-sponsor h1{
+	font-size : 2.5rem;
+	align-items: center;
+	/* padding : 0; */
+
+}
+.about-sponsor p{
+	font-size : 1.3rem;
+}
+
+.each-sponsor, .each-projects{
+	width : 100%;
+	margin-top : 5%;
+	
+}
+
+.each-sponsor h1, .each-projects h1{
+	text-align: center;
+	font-size : 2.5rem;
+}
+.sponsor{
+	display : flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width : 100%;
+	/* background-color : yellow; */
+	margin : 0 auto;
+}
+.sponsor-list{
+	width : 33%;
+	margin : 14px auto;
+	background-color : #fff;
+	box-shadow: 0 3px 2px rgba(255,255,255);
+	padding : 0;
+	border-radius: 2%;
+}
+.sponsor-list figure{
+	width : 100%;
+	margin : 0;
+	padding : 0;
+}
+
+.sponsor-list figure img{
+	width : 100%;
+	border-radius: 2%;
+	object-fit: cover;
+	max-width : 100%;
+	
+}
+
+
+
+@media(max-width: 558px){
+	.sponsor{
+		/* display : flex; */
+		flex-direction: column;
+		width : 100%;
+	}
+
+	.sponsor-list{
+		width : 90%;
+		margin : 14px auto;
+
+		padding : 0;
+		border-radius: 2%;
+	}
+
+	.sponsor-list figure img{
+		width : 100%;
+		border-radius: 2%;
+		object-fit: cover;
+		max-width: 558px;
+		
+	}
+
+}
+
 
 
 
