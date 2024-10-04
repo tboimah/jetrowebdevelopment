@@ -239,7 +239,7 @@ body {
     overflow: hidden;
 }
  .services-content{
-   flex-basis: 50%;
+   /* flex-basis: 50%; */
    display: flex;
 }
 .services h1{

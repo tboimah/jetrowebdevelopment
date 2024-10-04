@@ -241,15 +241,17 @@ body {
 }
 
 /* footer */
+
+section .footer{
+    background-color: red;
+}
 .sub-footer{
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    /* display: grid; */
+    width : 90%;
+    margin : 0 auto;
 }
 
-.footer{
-    /* background-color: whitesmoke; */
-}
+
 .footer h2{
     padding-left: 2rem;
     padding-top: 2rem;

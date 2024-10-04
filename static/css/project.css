@@ -254,11 +254,11 @@ body {
     transform: scaleX(1);
 } */
 /* footer */
-.sub-footer{
+/* .sub-footer{
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-}
+} */
 
 .footer{
     background-color: whitesmoke;

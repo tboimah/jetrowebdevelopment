@@ -471,7 +471,7 @@ body {
 }
 
 /* footer */
-.sub-footer{
+/* .sub-footer{
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -493,7 +493,7 @@ body {
 .cont i{
     font-size: 40px;
     margin-top: 20px;
-}
+} */
 
 
 

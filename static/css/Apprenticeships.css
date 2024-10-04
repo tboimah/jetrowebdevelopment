@@ -204,20 +204,26 @@ body {
     font-size: 30px;
 }
 /* footer */
-.sub-footer{
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-}
 
 .footer{
     background-color: whitesmoke;
+    background-color :aquamarine;
+    width : 90%;
+    margin : 0 auto;
+    height : 60vh;
 }
+
 .footer h2{
     padding-left: 2rem;
     padding-top: 2rem;
     color: rgb(25, 25, 152);
 }
+
+.sub-footer ul{
+    list-style: none;
+}
+
+
 .cont{
    margin-bottom: 20px; 
    margin-top: 10px;
