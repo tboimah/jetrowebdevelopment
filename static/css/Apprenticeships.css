@@ -16,7 +16,7 @@ header{
     /* background-image: url("images/tb7.jpeg"); */
     /* background-repeat: no-repeat;
     background-size: cover; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     box-shadow: var(border-box);
 }
 .row {

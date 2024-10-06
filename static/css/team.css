@@ -23,7 +23,7 @@ header{
     /* background-image: url("images/tb7.jpeg"); */
     /* background-repeat: no-repeat;
     background-size: cover; */
-    min-height: 20vh;
+    min-height: 15vh;
     box-shadow: var(border-box);
 }
 .row {
@@ -33,7 +33,7 @@ header{
     background: rgb(0, 0, 250, 0.512);
 }
 .logo{
-    width: 120px;
+    /* width: 120px; */
 }
 .ctn {
     padding: 10px 20px;
@@ -127,7 +127,7 @@ body {
     /* height: 90px; */
     margin-left: 10px;
     color: blue;
-    font-size: 40px;
+    /* font-size: 40px; */
     /* box-shadow: 2px 2px 2px 2px darkblue; */
 }
 .Tech ul{
@@ -203,14 +203,14 @@ body {
 /* Team */
 .team{
     /* margin-top: 10%; */
-    background: powderblue;
+    background: linear-gradient(to bottom right, rgb(6, 3, 0),rgb(14, 10, 10));
     overflow: hidden;
 }
 .team-top{
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
-    color: blue;
+    color: orangered;
 }
 .team-to{
     text-align: center;
@@ -219,15 +219,17 @@ body {
 .team-mem h1{
     font-size: 30px;
     /* color: blue; */
+    color: whitesmoke;
 }
 .team-mem h2{
-    color: blue;
+    color: orangered;
     margin-bottom: 2%;
     font-size: 20px;
 }
 .team-mem p{
     text-align: left;
     /* margin-top: 20px; */
+    color: whitesmoke;
     
 }
 .team-mem img{

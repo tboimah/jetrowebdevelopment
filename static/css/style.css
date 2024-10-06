@@ -17,12 +17,12 @@ body h1{
     color: #282f59;
 }
 header{
+    /* background-image: url("images/tb7.jpeg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     min-height: 100vh;
     box-shadow: var(border-box);
 }
-/* header{
-    background-color : black;
-} */
 .row {
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ header{
     background: rgb(0, 0, 250, 0.512);
 }
 .logo{
-    width: 120px;
+    /* width: 120px; */
 }
 .ctn {
     padding: 10px 20px;
@@ -124,7 +124,7 @@ body {
     /* height: 90px; */
     margin-left: 10px;
     color: blue;
-    font-size: 40px;
+    /* font-size: 40px; */
     /* box-shadow: 2px 2px 2px 2px darkblue; */
 }
 .Tech ul{
@@ -271,7 +271,6 @@ body {
     padding-top: 30px;
     overflow: hidden;
 }
-
 .tech-top{
     /* margin-left: 15rem; */
     font-size: 6vmin;
