@@ -46,5 +46,5 @@ Jeff Elkner / Social Justice Computing
 **Thank you for your business! Please feel free to reach out if you have any questions about this invoice.**  
 
 Sincerely,  
-**[Thomas Boimah]**  
+**Thomas Boimah**  
 Jetro Web Development  
