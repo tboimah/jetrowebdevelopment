@@ -19,16 +19,16 @@ Jeff Elkner / Social Justice Computing
 
 | **Item**                         | **Description**                                                   | **Hours** | **Rate (USD)** | **Total (USD)** |
 |----------------------------------|-------------------------------------------------------------------|-----------|----------------|-----------------|
-| **DNS Configuration**            | Configured DNS to point sjcompute.org to GitHub Pages            | 4 hours   | $25/hour       | $100.00         |
-| **Email Setup**                  | Created and tested email accounts for SJC board members          | 6 hours   | $25/hour       | $150.00         |
-| **Nextcloud Setup**| Initial configuration and user testing for Nextcloud platform    | 5 hours   | $25/hour       | $125.00         |
-| **Preparation and Meetings**     | Coordination, preparation for worksession, and team updates      | 3 hours   | $25/hour       | $75.00         |
+| **DNS Configuration**            | Configured DNS to point sjcompute.org to GitHub Pages            | 4 hours   | $50/hour       | $200.00         |
+| **Email Setup**                  | Created and tested email accounts for SJC board members          | 6 hours   | $50/hour       | $300.00         |
+| **Nextcloud Setup**| Initial configuration and user testing for Nextcloud platform    | 5 hours   | $50/hour       | $250.00         |
+| **Preparation and Meetings**     | Coordination, preparation for worksession, and team updates      | 3 hours   | $50/hour       | $150.00         |
 
 ---
 
-### **Subtotal:** $450.00  
+### **Subtotal:** $900.00  
 ### **Tax (If Applicable):** $0.00  
-### **Total Due:** $450.00  
+### **Total Due:** $900.00  
 
 ---
 
