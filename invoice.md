@@ -1,21 +1,17 @@
 # Invoice  
 
 **Jetro Web Development**  
-[Your Address]  
-[City, State, ZIP Code]  
-[Email Address]  
-[Phone Number]  
-
+24th street 
+Monrovia, Liberia 
+  
 **Invoice Number:** JW2024-001  
-**Date:** [Insert Date]  
-**Due Date:** [Insert Due Date, e.g., 14 days from the date of invoice]  
+**Date:** December 13, 2024  
+**Due Date:** December 21, 2024
 
 ---
 
 ## **Bill To:**  
-Jeff Elkner  
-[Address, if known]  
-Social Justice Computing  
+Jeff Elkner / Social Justice Computing  
 
 ---
 
@@ -23,16 +19,16 @@ Social Justice Computing
 
 | **Item**                         | **Description**                                                   | **Hours** | **Rate (USD)** | **Total (USD)** |
 |----------------------------------|-------------------------------------------------------------------|-----------|----------------|-----------------|
-| **DNS Configuration**            | Configured DNS to point sjcompute.org to GitHub Pages            | 4 hours   | $50/hour       | $200.00         |
-| **Email Setup**                  | Created and tested email accounts for SJC board members          | 6 hours   | $50/hour       | $300.00         |
-| **Nextcloud Setup (In Progress)**| Initial configuration and user testing for Nextcloud platform    | 5 hours   | $50/hour       | $250.00         |
-| **Preparation and Meetings**     | Coordination, preparation for worksession, and team updates      | 3 hours   | $50/hour       | $150.00         |
+| **DNS Configuration**            | Configured DNS to point sjcompute.org to GitHub Pages            | 4 hours   | $25/hour       | $100.00         |
+| **Email Setup**                  | Created and tested email accounts for SJC board members          | 6 hours   | $25/hour       | $150.00         |
+| **Nextcloud Setup**| Initial configuration and user testing for Nextcloud platform    | 5 hours   | $25/hour       | $125.00         |
+| **Preparation and Meetings**     | Coordination, preparation for worksession, and team updates      | 3 hours   | $25/hour       | $75.00         |
 
 ---
 
-### **Subtotal:** $900.00  
+### **Subtotal:** $450.00  
 ### **Tax (If Applicable):** $0.00  
-### **Total Due:** $900.00  
+### **Total Due:** $450.00  
 
 ---
 
@@ -40,23 +36,15 @@ Social Justice Computing
 
 **Payable To:**  
 **Jetro Web Development**  
-- **Bank Name:** [Insert Bank Name]  
-- **Account Number:** [Insert Account Number]  
-- **Routing Number:** [Insert Routing Number]  
+- **Bank Name:** United Banck of Africa (UBA)
+- **Account Number:** You already know the accout number.
 
-**Alternative Personal Payment Option:**  
-**[Your Name]**  
-- **Bank Name:** [Insert Bank Name]  
-- **Account Number:** [Insert Account Number]  
-- **Routing Number:** [Insert Routing Number]  
-
-**Payment Methods Accepted:** [Bank Transfer, PayPal, etc.]  
-**Payment Terms:** Payment due within 14 days of the invoice date.  
+**Payment Methods Accepted:** [Bank Transfer,]  
+ 
 
 ---
-
 **Thank you for your business! Please feel free to reach out if you have any questions about this invoice.**  
 
 Sincerely,  
-**[Your Name]**  
+**[Thomas Boimah]**  
 Jetro Web Development  
