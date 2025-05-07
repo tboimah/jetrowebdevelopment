@@ -845,7 +845,7 @@ html {
 	}
 }
 
-@media (max-width : 736px){
+@media (max-width : 1185px){
 
 	.windowButton{
 		display : block;
@@ -1358,8 +1358,6 @@ html {
 	}
 
 }
-
-
 
 
 

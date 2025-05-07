@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+  }
+  .hero {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .pricing-card {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
+  footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .pricing-toggle {
+    margin: 20px 0;
+  }
+
+ 

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Decidim Services – Jetro Web</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/decidim-sevice.css">
+  
+</head>
+<body>
+
+  <header id="main-header">
+    <a href="#"><span>Jetro Web Dev.</span></a>
+        <nav class="nav">
+
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                
+                <li class="has-submenu">
+                    <a href="ourteam.html">About Us</a>
+                    <ul>
+                        <li><a href="ourteam.html">Our Team</a></li>
+                        <li><a href="value.html">Our Value</a></li>
+                    
+                    </ul>
+
+                </li>
+
+                <li class="has-submenu">
+                    <a href="#">Our Work</a>
+                    <ul>
+                        <li><a href="client.html">Client & Partner</a></li>
+                        <li><a href="#">Project</a></li>
+                        
+                
+                    </ul>
+                </li>
+                <li><a href="mentors.html">Our-Mentors</a></li>
+                <li><a href="#address">Contact</a></li>
+                <li><a href="decidim-sevice.html">Decidim-Service</a></li>
+            
+            </ul>
+
+        </nav>
+
+        <div class="windowButton">
+            <span class="window"></span>
+            <span class="window"></span>
+            <span class="window"></span>
+        </div>
+  </header>
+
+  <section class="hero">
+    <h1 class="display-4">Bring Digital Democracy to Life</h1>
+    <p class="lead">Launch your participatory platform with Jetro's Decidim Hosting & Customization Services.</p>
+    <a href="#contact" class="btn btn-light btn-lg mt-3">Request a Demo</a>
+  </section>
+
+  <section class="container my-5">
+    <div class="text-center mb-4">
+      <h2>What We Offer</h2>
+      <p>Empowering NGOs, city councils, student governments, and more with open-source participation tools.</p>
+    </div>
+
+    <!-- Pricing Toggle -->
+    <div class="text-center pricing-toggle">
+      <button class="btn btn-primary" onclick="togglePricing('monthly')">Monthly</button>
+      <button class="btn btn-secondary" onclick="togglePricing('yearly')">Yearly</button>
+    </div>
+
+    <div class="row g-4">
+      <!-- Starter Plan -->
+      <div class="col-md-4">
+        <div class="card pricing-card p-4">
+          <h4>Starter</h4>
+          <p>Perfect for small orgs just getting started.</p>
+          <ul>
+            <li>Platform setup</li>
+            <li>Basic branding</li>
+            <li>Email support</li>
+          </ul>
+          <h5 id="starter-price-monthly">$50/month</h5>
+          <h5 id="starter-price-yearly" style="display:none;">$600/year (Save 2 months)</h5>
+        </div>
+      </div>
+      
+      <!-- Pro Plan -->
+      <div class="col-md-4">
+        <div class="card pricing-card p-4">
+          <h4>Pro</h4>
+          <p>Ideal for growing organizations.</p>
+          <ul>
+            <li>Custom domain</li>
+            <li>Advanced branding</li>
+            <li>Training included</li>
+          </ul>
+          <h5 id="pro-price-monthly">$150/month</h5>
+          <h5 id="pro-price-yearly" style="display:none;">$1,500/year (Save 2 months)</h5>
+        </div>
+      </div>
+
+      <!-- Custom Plan -->
+      <div class="col-md-4">
+        <div class="card pricing-card p-4">
+          <h4>Custom</h4>
+          <p>For organizations with unique needs.</p>
+          <ul>
+            <li>Custom workflows</li>
+            <li>Feature development</li>
+            <li>On-demand consulting</li>
+          </ul>
+          <h5 id="custom-price-monthly">Starts at $500/month</h5>
+          <h5 id="custom-price-yearly" style="display:none;">Starts at $6,000/year</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5" id="contact">
+    <div class="text-center mb-4">
+      <h2>Request a Demo</h2>
+      <p>Let’s build your platform together. Reach out to get started.</p>
+    </div>
+    <form class="row g-3" action="mailto:your-email@example.com" method="POST">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Email Address" required>
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="4" placeholder="Tell us a bit about your organization..."></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary"><a href="mailto:jetroweb@novawebdevelopment.org" class="btn btn-primary">Send Request</a></button>
+      </div>
+    </form>
+  </section>
+
+  <section class="footer">
+    <div class="sub-footer">
+        <div class="jetro-info">
+            <div class="contact-address" id="address">
+                <div class="footer-contact">
+                    <h3>Office Address</h3>
+                    <p>24th Street, Sinkor <br>Monrovia, Liberia</p>
+                    <h3>Contact Number</h3>
+                    <p>+231 886852009 | +231 775181142 +231 0555883427</p>
+                </div>
+
+                <div class="email-and-contact">
+                    <h4>Email Address</h4>
+                    <p><a href="mailto:jetroweb@novawebdevelopment.org">contact@jetrowebdevelopment.org</a>
+                    <p><a href="mailto:jetroweb@novawebdevelopment.org"><i class="fas fa-envelope"></i></a></p>
+                </div>
+
+            </div>
+
+            <div class="map-address">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.831277880499!2d-10.773810526177245!3d6.285896793703028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf0a029a047b19b7%3A0xdc020e8b6299563a!2s24th%20St%2C%20Monrovia%2C%20Liberia!5e0!3m2!1sen!2s!4v1728060650063!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            
+
+        </div>
+
+    </div>  
+    <div class="copyright-note">
+        <p>Copyright © 2024 Licensed under Creative Commons Attribution - No Derivative Works 3.0 (or later version)
+            <a href="#">Privacy Policy</a>
+        </p>
+
+    </div>  
+
+    
+
+</section>
+
+<!-- End of Footer -->
+
+
+<script src="static/JS/script.js"></script>
+ 
+
+</body>
+</html>
+

@@ -82,3 +82,37 @@ nav.addEventListener('onclick', () => {
   navlist.style.display = "block";
 
 });
+
+
+// Decidim Service Script
+function togglePricing(plan) {
+  if (plan === 'monthly') {
+    document.getElementById('starter-price-monthly').style.display = 'block';
+    document.getElementById('starter-price-yearly').style.display = 'none';
+    document.getElementById('pro-price-monthly').style.display = 'block';
+    document.getElementById('pro-price-yearly').style.display = 'none';
+    document.getElementById('custom-price-monthly').style.display = 'block';
+    document.getElementById('custom-price-yearly').style.display = 'none';
+  } else {
+    document.getElementById('starter-price-monthly').style.display = 'none';
+    document.getElementById('starter-price-yearly').style.display = 'block';
+    document.getElementById('pro-price-monthly').style.display = 'none';
+    document.getElementById('pro-price-yearly').style.display = 'block';
+    document.getElementById('custom-price-monthly').style.display = 'none';
+    document.getElementById('custom-price-yearly').style.display = 'block';
+  }
+}
+
+// JavaScript for "Read more" / "Read less" functionality
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const moreText = button.previousElementSibling.querySelector('.more-text');
+    if (moreText.style.display === 'none') {
+      moreText.style.display = 'inline';
+      button.textContent = 'Read less';
+    } else {
+      moreText.style.display = 'none';
+      button.textContent = 'Read more';
+    }
+  });
+});

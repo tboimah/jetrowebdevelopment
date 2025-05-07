@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mentors | Jetro Web</title>
+  <link rel="stylesheet" href="static/css/mentor.css">
+</head>
+<body>
+ 
+    <header id="main-header">
+        <a href="#"><span>Jetro Web Dev.</span></a>
+            <nav class="nav">
+    
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    
+                    <li class="has-submenu">
+                        <a href="ourteam.html">About Us</a>
+                        <ul>
+                            <li><a href="ourteam.html">Our Team</a></li>
+                            <li><a href="value.html">Our Value</a></li>
+                        
+                        </ul>
+    
+                    </li>
+    
+                    <li class="has-submenu">
+                        <a href="#">Our Work</a>
+                        <ul>
+                            <li><a href="client.html">Client & Partner</a></li>
+                            <li><a href="#">Project</a></li>
+                            
+                    
+                        </ul>
+                    </li>
+                    <li><a href="mentors.html">Our-Mentors</a></li>
+                    <li><a href="#address">Contact</a></li>
+                    <li><a href="decidim-sevice.html">Decidim-Service</a></li>
+                
+                </ul>
+    
+            </nav>
+    
+            <div class="windowButton">
+                <span class="window"></span>
+                <span class="window"></span>
+                <span class="window"></span>
+            </div>
+      </header>
+
+  <main class="mentors-section container">
+    <!-- Mentor 1: Isaac -->
+    <div class="mentor-card">
+      <img src="static/jetro_media/IsaacZawolo.jpg" alt="Isaac Zawolo">
+      <h2>Isaac Zawolo</h2>
+      <p>
+        Something will be here soon Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        
+        <span class="more-text" style="display: none;">
+        Something will be here soon Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        
+    </p>
+      <button class="read-more-btn">Read more</button>
+    </div>
+
+    <!-- Mentor 2: Jeff -->
+    <div class="mentor-card">
+      <img src="static/jetro_media/JeffElkner.jpg" alt="Jeff Elkner">
+      <h2>Jeff Elkner</h2>
+      <p>
+        Something will be here soon Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    
+        <span class="more-text" style="display: none;">
+            Something will be here soon Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           
+        </span>
+      </p>
+      <button class="read-more-btn">Read more</button>
+    </div>
+
+    <!-- Mentor 3: Spencer -->
+    <div class="mentor-card">
+      <img src="static/jetro_media/SpencerCooper.jpg" alt="Spencer Cooper">
+      <h2>Spencer Cooper</h2>
+      <p>
+        Something will be here soon Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+       
+        <span class="more-text" style="display: none;">
+            Something will be here soon Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+         
+        </span>
+      </p>
+      <button class="read-more-btn">Read more</button>
+    </div>
+  </main>
+
+  <section class="footer">
+    <div class="sub-footer">
+        <div class="jetro-info">
+            <div class="contact-address" id="address">
+                <div class="footer-contact">
+                    <h3>Office Address</h3>
+                    <p>24th Street, Sinkor <br>Monrovia, Liberia</p>
+                    <h3>Contact Number</h3>
+                    <p>+231 886852009 | +231 775181142 +231 0555883427</p>
+                </div>
+
+                <div class="email-and-contact">
+                    <h4>Email Address</h4>
+                    <p><a href="mailto:jetroweb@novawebdevelopment.org">contact@jetrowebdevelopment.org</a>
+                    <p><a href="mailto:jetroweb@novawebdevelopment.org"><i class="fas fa-envelope"></i></a></p>
+                </div>
+
+            </div>
+
+            <div class="map-address">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.831277880499!2d-10.773810526177245!3d6.285896793703028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf0a029a047b19b7%3A0xdc020e8b6299563a!2s24th%20St%2C%20Monrovia%2C%20Liberia!5e0!3m2!1sen!2s!4v1728060650063!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            
+
+        </div>
+
+    </div>  
+    <div class="copyright-note">
+        <p>Copyright © 2024 Licensed under Creative Commons Attribution - No Derivative Works 3.0 (or later version)
+            <a href="#">Privacy Policy</a>
+        </p>
+
+    </div>  
+
+    
+
+</section>
+
+<!-- End of Footer -->
+
+
+<script src="static/JS/script.js"></script>
+<script>
+    // JavaScript for "Read more" / "Read less" functionality
+    document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const moreText = button.previousElementSibling.querySelector('.more-text');
+        if (moreText.style.display === 'none') {
+        moreText.style.display = 'inline';
+        button.textContent = 'Read less';
+        } else {
+        moreText.style.display = 'none';
+        button.textContent = 'Read more';
+        }
+    });
+    });
+</script>
+</body>
+</html>

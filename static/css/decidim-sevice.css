@@ -1,17 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=poppins:wight@300;400; 500&display=swap"); */
 :root {
     --def-transition-duration: .3s;
 }
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    
-}
-html{
-    scroll-behavior: smooth;
-}
-
 img {
     display: block;
 }
@@ -189,286 +178,31 @@ nav ul a,
 
 }
 
- /*ourvalue*/
-
-.coop-foss{
-    width: 50;
-}
-
-.containers{
-    padding: 1rem;
-    display: flex;
-    /* margin-top: 15%; */
-    
-    
-
-}
-
-.containers2{
-    padding: 1rem;
-    display: flex;
-    margin-top: 0%;
-}
-
-.containers h2{
-    color: black;
-}
-
-.margin-top-header{
-    width: 100%;
-    height: 50%;
-    margin-top: 100px;
-}
-
-.pen{
-    width: 50%;
-    height: 100%;
-    float: left;
-    margin-left: 30px;
-}
-
-.header-title{
-    float: right;
-    background-color:whitesmoke;
-    width: 48%;
-    height: 49%;
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+  }
+  .hero {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 20px;
     text-align: center;
-    font-size: x-large;
-    margin-left: 50px;
+  }
+  .pricing-card {
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
+  footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .pricing-toggle {
+    margin: 20px 0;
+  }
 
-    
-}
-
-.mainheader-title{
-    margin-top: 1px;
-}
-
-.header-title h3{
-    margin-top: 20px;
-}
-
-.header-title h1{
-    color: cadetblue;
-}
-
-.Principles-content{
-    width: 47%;
-    float: right;
-    margin-bottom: 0%;
-    height: 100%;
-    margin-right: 2%;
-    margin-top: 0%;
-}
-
-.Principles-content h2{
-    float: none;
-    margin-bottom: 10%;
-    font-size: xx-large;
-    margin-left: 8%;
-    color: cadetblue;
-}
-
-.justice{
-    width: 51%;
-    margin-top: 0%;
-    /* height: 100%; */
-}
-
-.justice #justice-img{
-    width: 90%;
-    margin-top: 0%;
-    height: 99%;
-}
-
-.Principles-content ol li p{
-    margin-bottom: 17%;
-    font-size: x-large;
-    margin-left: 0%;
-    width: 90%;
-
-
-}
-
-.Principles-content ol li{
-    margin-bottom: 0%;
-    font-size: x-large;
-    margin-left: 10%;
-    width: 90%;
-}
-
-.rows{
-    padding: 1rem;
-    display: flex;
-    margin-top: 0%;
-}
-
-.col-left{
-    width: 50%;
-    height: 40%;
-    float: left;
-    padding-left: 2.5%;
-}
-
-.old-programmer{
-    width: 100%;
-    height: 20%;
-}
-
-.coop-foss-container{
-    background-color:cornflowerblue;
-}
-
-.coop-foss{
-    width: 47%;
-    background-color: aqua;
-    float:right;
-    margin-right: 3%;
-}
-
-.text-white{
-    margin-left: 5%;
-    margin-bottom: 2%;
-}
-
-.text-header{
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 3.3%;
-    font-size: 250%;
-}
-
-.ripped-paper{
-    margin-top: 5%;
-}
-@media screen and (max-width: 600px){
-    .header-title{
-        float: none;
-        background-color:whitesmoke;
-        width: 100%;
-        height: 45%;
-        text-align: center;
-        font-size: x-large;
-        margin-left: 0px;
-    }
-
-    .margin-top-header{
-        width: 100%;
-        height:30%;
-        margin-top: 50px;
-    }
-
-    .pen{
-        width: 100%;
-        height: 90%;
-        float: none;
-        margin-left: 0px
-    }
-    
-    .containers{
-        width: 100%;
-        height: 90%;
-        background-color: #2af598;
-    }
-
-    .Principles-content{
-        width: 100%;
-        float: none;
-        margin-bottom: 0%;
-        height: 50%;
-        margin-right: 2%;
-        margin-top: 0%;
-        display: contents;
-    }
-    
-    .Principles-content h2{
-        float: none;
-        margin-bottom: 10%;
-        font-size: xx-large;
-        margin-left: 8%;
-        color: cadetblue;
-    }
-    
-    .justice{
-        width: 100%;
-        margin-top: 0%;
-        height: 100%;
-        display: contents;
-    }
-    
-    .justice #justice-img{
-        width: 90%;
-        margin-top: 0%;
-        height: 35%;
-    }
-    
-    .Principles-content ol li p{
-        margin-bottom: 7%;
-        font-size: x-large;
-        margin-left: 0%;
-        width: 90%;
-        overflow: hidden;
-        
-    
-    }
-    
-    .Principles-content ol li{
-        margin-bottom: 0%;
-        font-size: x-large;
-        margin-left: 10%;
-        width: 90%;
-    }
-
-    .rows{
-        padding: 1rem;
-        display: block;
-        margin-top: 0%;
-    }
-    
-    .col-left{
-        width: 100%;
-        height: 40%;
-        float: none;
-        padding-left: 0%;
-    }
-    
-    .old-programmer{
-        width: 100%;
-        height: 20%;
-    }
-    
-    .coop-foss{
-        width: 100%;
-        background-color: aqua;
-        float:none;
-        margin-right: 3%;
-        overflow: none;
-        text-align: left;
-    }
-    
-    .text-white{
-        margin-left: 5%;
-        margin-bottom: 2%;
-        margin-right: 5%;
-    }
-    
-    .text-header{
-        margin-left: 5%;
-        margin-top: 5%;
-        margin-bottom: 3.3%;
-        font-size: 200%;
-    }
-    
-    .ripped-paper{
-        margin-top: 5%;
-        width: 80%;
-        text-align: left;
-        margin-left: 10%;
-    }
-
-
-}
-
-/* =========== Footer Section ================= */
+  /* =========== Footer Section ================= */
 
 .footer{
     width : 100%;
@@ -646,7 +380,9 @@ nav ul a,
 
 }
 
-/* ====================== Mobile Layout for index page =============================== */
+
+
+/* ====================== Mobile Layout for index page]]] =============================== */
 
 @media (max-width : 660px){
 	.windowButton{
@@ -707,63 +443,10 @@ nav ul a,
 
 	}
 
-	.jetro-intro, .services{
-		flex-direction: column;
-		width : 90%;
-	}
 
-	.about-jetro{
-		width : 100%;
-		padding : 14p 0x;
-		color : white;
-	}
-
-	.jetro-intro figure img{
-		width : 160%;
-		padding : 0 3px;
-
-	}
-
-
-	.works{
-		flex-direction: column;
-		margin : 14px 0;
-		padding :0;
-		width : 100%;
-
-	}
-	.work{
-		width : 100%;
-		flex-direction: column;
-
-	}
-
-
-	.work-we-do{
-		border-radius: .5em;
-		padding : .8em 0;
-		width : 200%;
-	
-	}
-
-
-
-
-	.work-img{
-		width : 100%;
-		padding : 0;
-		margin : 0;
-		align-items: center;
-	}
-
-	.work .work-img img{
-		width : 100%;
-		object-fit: contain;
-		max-width : 550px
-	}
 }
 
-@media (max-width : 1240px){
+@media (max-width : 1165px){
 
 	.windowButton{
 		display : block;
@@ -823,14 +506,14 @@ nav ul a,
 
 	}
 
-
+	
 
 }
 
-@media(max-width: 739px){
+@media(max-width: 736px){
 	.windowButton{
 		/* display: block; */
-		margin: 0 22px;
+		margin: 0 32px;
 	}
 
 	.has-submenu ul{
