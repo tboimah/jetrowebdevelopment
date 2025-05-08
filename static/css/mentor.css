@@ -634,3 +634,10 @@ nav ul a,
 
 
 }
+h1{
+    text-align: center;
+    color: #005792;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-size: 50px; */
+    margin-top: 40px;
+}
