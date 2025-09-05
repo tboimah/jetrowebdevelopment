@@ -167,39 +167,3 @@ ps aux | grep gunicorn
 ### Final Step Requirement
 May First support must configure **Apache reverse proxy** (send email and wait for response).
 
-### May First Response with Solution
-Jaime Villarreal from support provided the following configuration:
-
-1. Log in to your May First control panel.  
-2. Navigate to your hosting order management.  
-3. Find **"Web Configuration"** or similar section.  
-4. Look for an **"Advanced Settings"** or **"Custom Configuration"** field.  
-5. Paste the following configuration:  
-
-```apache
-ProxyPass / http://localhost:24681/
-ProxyPreserveHost On
-RequestHeader set X-Real-IP %{REMOTE_ADDR}s
-```
-
-6. **Save** the changes.  
-
-### What this configuration does:
-- **`ProxyPass / http://localhost:24681/`** → Forwards all requests to Gunicorn.  
-- **`ProxyPreserveHost On`** → Keeps the original host header.  
-- **`RequestHeader set X-Real-IP %{REMOTE_ADDR}s`** → Passes the real client IP to Django.  
-
-### Test the Configuration
-```bash
-# Test from your local machine
-curl http://jetro.mayfirst.org
-
-# Or test from the server itself
-curl http://localhost:24681
-```
-
-#### Verify in Browser
-Visit:  
-[http://jetro.mayfirst.org](http://jetro.mayfirst.org)  
-
----
