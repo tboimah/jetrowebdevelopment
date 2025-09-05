@@ -3,8 +3,7 @@
 ## Overview
 **Author:** Thomas Boimah  
 **Project:** ToDo App Deployment  
-**Date:** September 3-4, 2025  
-**Status:** Production Ready
+
 
 ## Table of Contents
 1. [Prerequisites](#1-prerequisites)
