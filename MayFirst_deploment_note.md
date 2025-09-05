@@ -75,7 +75,7 @@ which gunicorn
 ### Clone Repository
 ```bash
 cd ~/include
-git clone <repository-url> ToDos
+git clone https://codeberg.org/JetroWebDevelopment/ToDos.git ToDos
 cd ToDos/sharedtodo
 
 ls -la
