@@ -17,6 +17,23 @@
 8. [Common Errors & Solutions](#8-common-errors--solutions)  
 
 ---
+## 🚀 Quick Summary
+
+This guide documents the deployment of a Django application on **May First's shared hosting** infrastructure. Here's the stack and tools used:
+
+| Component | Tool Used | Access Method | Note |
+| :--- | :--- | :--- | :--- |
+| **App Server** | Gunicorn | Installed in virtual env (`venv/bin/gunicorn`) | Runs Python/Django |
+| **Web Server** | Apache | Configured by May First support | Handles HTTP requests |
+| **Process Mgmt** | Scheduled Jobs | May First control panel → Scheduled Jobs | Replaces `systemd` for persistence |
+| **Database** | SQLite3 | Default Django database | File-based (`db.sqlite3`) |
+| **Proxy Setup** | Apache Reverse Proxy | Configured via May First support ticket | Routes web traffic to Gunicorn |
+
+### Why This Architecture?
+- **No `sudo` access** on shared hosting requires workarounds for process persistence
+- **Firewall restrictions** require using high-numbered ports (24680+)
+- **Apache configuration** requires support intervention since we lack server admin access
+- **SQLite** is used initially for simplicity but will migrate to PostgreSQL later
 
 ## 1. Prerequisites
 
@@ -167,3 +184,50 @@ ps aux | grep gunicorn
 ### Final Step Requirement
 May First support must configure **Apache reverse proxy** (send email and wait for response).
 
+## Support Email Template
+
+When you need Apache reverse proxy configured, use this email template:
+
+**Subject:** Apache Reverse Proxy Configuration Request
+
+**Body:**
+Hello May First Support,
+
+I have a Django application running with Gunicorn on port [PORT_NUMBER]. Could you please configure Apache to reverse proxy requests for [YOUR_DOMAIN] to http://127.0.0.1:[PORT_NUMBER]?
+
+Thank you for your assistance.
+
+Best regards,
+[Your Name]
+(User: [YOUR_USERNAME])
+
+### May First Response with Solution
+Jaime Villarreal from support provided the following configuration:
+
+1. Log in to your May First control panel. 
+2. Navigate to your hosting order management. 
+3. Find **"Web Configuration"** or similar section. 
+4. Look for an **"Advanced Settings"** or **"Custom Configuration"** field. 
+5. Paste the following configuration: 
+
+```apache
+ProxyPass / http://localhost:24681/
+ProxyPreserveHost On
+RequestHeader set X-Real-IP %{REMOTE_ADDR}s
+```
+
+# 7 **Save** the changes. 
+
+### What this configuration does:
+- **`ProxyPass / http://localhost:24681/`** → Forwards all requests to Gunicorn. 
+- **`ProxyPreserveHost On`** → Keeps the original host header. 
+- **`RequestHeader set X-Real-IP %{REMOTE_ADDR}s`** → Passes the real client IP to Django. 
+
+
+
+#### Verify in Browser
+After sometime Visit: 
+eg: [http://todo.jetrowebdevelopment.org]
+
+Thanks!!!
+---
