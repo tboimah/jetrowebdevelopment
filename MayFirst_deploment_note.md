@@ -6,18 +6,8 @@
 
 ---
 
-## Table of Contents
-1. [Prerequisites](#1-prerequisites)  
-2. [Initial Server Investigation](#2-initial-server-investigation)  
-3. [Application Setup](#3-application-setup)  
-4. [Gunicorn Configuration](#4-gunicorn-configuration)  
-5. [Permanent Process Setup](#5-permanent-process-setup)  
-6. [Web Server Configuration](#6-web-server-configuration)  
-7. [Troubleshooting](#7-troubleshooting)  
-8. [Common Errors & Solutions](#8-common-errors--solutions)  
-
 ---
-## 🚀 Quick Summary
+## Quick Summary
 
 This guide documents the deployment of a Django application on **May First's shared hosting** infrastructure. Here's the stack and tools used:
 
