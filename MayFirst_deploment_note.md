@@ -20,7 +20,7 @@ This guide documents the deployment of a Django application on **May First's sha
 | **Proxy Setup** | Apache Reverse Proxy | Configured via May First support ticket | Routes web traffic to Gunicorn |
 
 ### Why This Architecture?
-- **No `sudo` access** on shared hosting requires workarounds for process persistence
+- **No `sudo` access** 
 - **Firewall restrictions** require using high-numbered ports (24680+)
 - **Apache configuration** requires support intervention since we lack server admin access
 - **SQLite** is used initially for simplicity but will migrate to PostgreSQL later
