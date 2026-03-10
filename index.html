@@ -279,39 +279,95 @@
 
     <!-- Footer -->
     <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <h3>Jetro Web Development</h3>
-                <p>A worker-owned tech cooperative building human-centered technology for communities in Liberia and beyond.</p>
-                <p style="margin-top: 1rem; color: var(--coop-yellow); font-weight: 600;">
-                    🤝 Democratically owned since 2022
-                </p>
-            </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="About">About Us</a></li>
-                    <li><a href="Service">Services</a></li>
-                    <li><a href="Project">Portfolio</a></li>
-                </ul>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="static/jetro_media/jetrologo.png" alt="Jetro Web Development Logo">
+                    </div>
+                    <h3>Jetro Web Development</h3>
+                    <p>A worker-owned tech cooperative building human-centered technology for communities in Liberia and beyond.</p>
+                    <div class="footer-badge">
+                        <span class="coop-icon">🤝</span>
+                        <span>Democratically owned since 2022</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Phone">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Location">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-sections">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="About">About Us</a></li>
+                            <li><a href="Service">Services</a></li>
+                            <li><a href="Project">Portfolio</a></li>
+                            <li><a href="ourmentors">Our Mentors</a></li>
+                            <li><a href="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="Service">Web Development</a></li>
+                            <li><a href="Service">Student Management Systems</a></li>
+                            <li><a href="Service">Cloud Services</a></li>
+                            <li><a href="Service">IT Consulting</a></li>
+                            <li><a href="Service">Bookkeeping Services</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span>Mount Balcary Community, Monrovia, Liberia</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <span>members@jetrowebdevelopment.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                            <span>+231-777-508-174</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="footer-links">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Student Systems</a></li>
-                    <li><a href="#">Cloud Services</a></li>
-                    <li><a href="#">IT Consulting</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2026 Jetro Web Development. All rights reserved.</p>
+                    <p>Licensed under Creative Commons Attribution - No Derivative Works 3.0</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
-            <div class="footer-links">
-                <div class="footer-icon"><img src="static/jetro_media/jetrologo.png"> </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright © 2026 Jetro Web Development. Licensed under Creative Commons Attribution - No Derivative Works 3.0</p>
         </div>
     </footer>
 
