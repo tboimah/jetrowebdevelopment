@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Mentors</title>
+    <title>Our Mentors | Jetro Web Development</title>
     <link rel="icon" type="image/x-icon" href="static/jetro_media/jetrologo.png">
     <link rel="stylesheet" href="static/css/ourmentors.css">
 </head>
@@ -32,85 +32,326 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
+    <section class="hero-mentors">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">🌟</span>
+                <span>Our Guiding Lights</span>
+            </div>
+            <h1>Meet the Visionaries Behind Jetro Web Development</h1>
+            <p>The extraordinary individuals who believed in our mission and helped transform a dream into reality through their unwavering support and guidance</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Mentors</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2022</div>
+                    <div class="stat-label">Founded</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Impact</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </section>
 
-   
-    <main class="mentors-section container">
-        <h2>Meet the people who played vital roles in launching and supporting the Jetro Web Dev. Co-op.</h2>
-        <!-- Mentor 1: Mr. Zawolo -->
-        <div class="mentor-card">
-            <img src="static/jetro_media/Isaaczawolo.jpeg" alt="Isaac Zawolo">
-            <h2>Isaac Zawolo</h2>
-            <p>
-            Mr. Zawolo is the former Superintendent of the Monrovia Consolidated School System (MCSS) and a longtime friend of Jeff Elkner from Virginia.
-            <span class="more-text" style="display: none;">
-                He gave the tech program its first platform by allowing it to operate under his office, offering it institutional legitimacy and access to resources. His support helped the initiative gain early traction and visibility. Even after leaving office, he continues to be a strong advocate, offering moral and motivational support. Mr. Zawolo laid the foundation for acceptance and credibility in a way that would have been hard to achieve independently.
-            </span>
-            </p>
-            <button class="read-more-btn">Read more</button>
+    <!-- Mentors Section -->
+    <main class="mentors-main">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Pillars of Our Success</h2>
+                <p>Each mentor brought unique expertise and unwavering commitment to help build Liberia's premier worker-owned tech cooperative</p>
+            </div>
+            
+            <div class="mentors-grid">
+                <!-- Mentor 1: Mr. Zawolo -->
+                <div class="mentor-card">
+                    <div class="mentor-image-container">
+                        <img src="static/jetro_media/Isaaczawolo.jpeg" alt="Isaac Zawolo" class="mentor-image">
+                        <div class="mentor-overlay">
+                            <div class="mentor-role">Educational Leader</div>
+                        </div>
+                    </div>
+                    <div class="mentor-content">
+                        <div class="mentor-header">
+                            <h3>Isaac Zawolo</h3>
+                            <div class="mentor-title">Former Superintendent, MCSS</div>
+                        </div>
+                        <div class="mentor-description">
+                            <p class="mentor-intro">
+                                Mr. Zawolo is the former Superintendent of the Monrovia Consolidated School System (MCSS) and a longtime friend of Jeff Elkner from Virginia.
+                            </p>
+                            <div class="mentor-full" style="display: none;">
+                                <p>
+                                    He gave the tech program its first platform by allowing it to operate under his office, offering it institutional legitimacy and access to resources. His support helped the initiative gain early traction and visibility. Even after leaving office, he continues to be a strong advocate, offering moral and motivational support. Mr. Zawolo laid the foundation for acceptance and credibility in a way that would have been hard to achieve independently.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor-impact">
+                            <div class="impact-item">
+                                <span class="impact-icon">🏛️</span>
+                                <span>Institutional Support</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-icon">🎓</span>
+                                <span>Educational Leadership</span>
+                            </div>
+                        </div>
+                        <button class="mentor-btn" onclick="toggleMentor(this)">Read More</button>
+                    </div>
+                </div>
+                
+                <!-- Mentor 2: Jeff Elkner -->
+                <div class="mentor-card">
+                    <div class="mentor-image-container">
+                        <img src="static/jetro_media/JeffElkner.jpg" alt="Jeff Elkner" class="mentor-image">
+                        <div class="mentor-overlay">
+                            <div class="mentor-role">Founder & Visionary</div>
+                        </div>
+                    </div>
+                    <div class="mentor-content">
+                        <div class="mentor-header">
+                            <h3>Jeff Elkner</h3>
+                            <div class="mentor-title">Computer Science Teacher, ACC Virginia</div>
+                        </div>
+                        <div class="mentor-description">
+                            <p class="mentor-intro">
+                                Jeff Elkner is a Computer Science teacher at Arlington Career Center (ACC) in Virginia and a strong believer in Social Justice Computing.
+                            </p>
+                            <div class="mentor-full" style="display: none;">
+                                <p>
+                                    He founded the tech program with a vision to use computing as a force for good. From the start, Jeff provided all financial, technical, and leadership support. He led the effort to transition the co-op from a small initiative into a fully registered tech company in Liberia. Without Jeff, the program would not exist. His dedication, mentorship, and consistency continue to drive its growth and sustainability.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor-impact">
+                            <div class="impact-item">
+                                <span class="impact-icon">💻</span>
+                                <span>Tech Leadership</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-icon">⚖️</span>
+                                <span>Social Justice</span>
+                            </div>
+                        </div>
+                        <button class="mentor-btn" onclick="toggleMentor(this)">Read More</button>
+                    </div>
+                </div>
+                
+                <!-- Mentor 3: Spencer Cooper -->
+                <div class="mentor-card">
+                    <div class="mentor-image-container">
+                        <img src="static/jetro_media/SpencerCooper.jpeg" alt="Spencer Cooper" class="mentor-image">
+                        <div class="mentor-overlay">
+                            <div class="mentor-role">Stabilizing Force</div>
+                        </div>
+                    </div>
+                    <div class="mentor-content">
+                        <div class="mentor-header">
+                            <h3>Spencer Cooper</h3>
+                            <div class="mentor-title">IT Specialist, MCSS</div>
+                        </div>
+                        <div class="mentor-description">
+                            <p class="mentor-intro">
+                                Spencer Cooper is an IT specialist at MCSS and served as a stabilizing leader after Jeff and Mr. Zawolo returned to the U.S.
+                            </p>
+                            <div class="mentor-full" style="display: none;">
+                                <p>
+                                    He took charge of the team, provided a location for them to continue operations, and helped the co-op survive a critical transition period. His intervention was key in keeping the momentum alive until the program became officially registered in Liberia. Spencer's commitment brought structure, continuity, and a safe space to grow.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mentor-impact">
+                            <div class="impact-item">
+                                <span class="impact-icon">🛡️</span>
+                                <span>Operational Stability</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-icon">🏢</span>
+                                <span>Infrastructure Support</span>
+                            </div>
+                        </div>
+                        <button class="mentor-btn" onclick="toggleMentor(this)">Read More</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <!-- Mentor 2: Jeff Elkner -->
-        <div class="mentor-card">
-            <img src="static/jetro_media/JeffElkner.jpg" alt="Jeff Elkner">
-            <h2>Jeff Elkner</h2>
-            <p>
-            Jeff Elkner is a Computer Science teacher at Arlington Career Center (ACC) in Virginia and a strong believer in Social Justice Computing.
-            <span class="more-text" style="display: none;">
-                He founded the tech program with a vision to use computing as a force for good. From the start, Jeff provided all financial, technical, and leadership support. He led the effort to transition the co-op from a small initiative into a fully registered tech company in Liberia. Without Jeff, the program would not exist. His dedication, mentorship, and consistency continue to drive its growth and sustainability.
-            </span>
-            </p>
-            <button class="read-more-btn">Read more</button>
-        </div>
-        
-        <!-- Mentor 3: Spencer Cooper -->
-        <div class="mentor-card">
-            <img src="static/jetro_media/SpencerCooper.jpeg" alt="Spencer Cooper">
-            <h2>Spencer Cooper</h2>
-            <p>
-            Spencer Cooper is an IT specialist at MCSS and served as a stabilizing leader after Jeff and Mr. Zawolo returned to the U.S.
-            <span class="more-text" style="display: none;">
-                He took charge of the team, provided a location for them to continue operations, and helped the co-op survive a critical transition period. His intervention was key in keeping the momentum alive until the program became officially registered in Liberia. Spencer's commitment brought structure, continuity, and a safe space to grow.
-            </span>
-            </p>
-            <button class="read-more-btn">Read more</button>
-        </div>
-    
     </main>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <div class="impact-content">
+                <h2>Together, They Built Something Extraordinary</h2>
+                <p>Through their combined expertise, dedication, and belief in the power of technology for social good, these three mentors helped create a sustainable tech cooperative that continues to empower communities in Liberia and beyond.</p>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <div class="impact-icon-large">🎓</div>
+                        <h3>Education First</h3>
+                        <p>Providing educational opportunities and technical training to Liberian youth</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon-large">🤝</div>
+                        <h3>Cooperative Spirit</h3>
+                        <p>Building a worker-owned business model that prioritizes community benefit</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-icon-large">🌍</div>
+                        <h3>Global Impact</h3>
+                        <p>Creating connections between Liberia and the global tech community</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
 <!-- Footer -->
-    <footer>
-        <div class="footer-grid">
+<footer>
+    <div class="footer-container">
+        <div class="footer-main">
             <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="static/jetro_media/jetrologo.png" alt="Jetro Web Development Logo">
+                </div>
                 <h3>Jetro Web Development</h3>
                 <p>A worker-owned tech cooperative building human-centered technology for communities in Liberia and beyond.</p>
-                <p style="margin-top: 1rem; color: var(--coop-yellow); font-weight: 600;">
-                    🤝 Democratically owned since 2022
-                </p>
+                <div class="footer-badge">
+                    <span class="coop-icon">🤝</span>
+                    <span>Democratically owned since 2022</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Phone">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Location">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="About">About Us</a></li>
-                    <li><a href="Service">Services</a></li>
-                    <li><a href="Project">Portfolio</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="Service">Web Development</a></li>
-                    <li><a href="Service">Student Systems</a></li>
-                    <li><a href="Service">Cloud Services</a></li>
-                    <li><a href="Service">IT Consulting</a></li>
-                </ul>
+            
+            <div class="footer-sections">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="About">About Us</a></li>
+                        <li><a href="Service">Services</a></li>
+                        <li><a href="Project">Portfolio</a></li>
+                        <li><a href="ourmentors">Our Mentors</a></li>
+                        <li><a href="Contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="Service">Web Development</a></li>
+                        <li><a href="Service">Student Management Systems</a></li>
+                        <li><a href="Service">Cloud Services</a></li>
+                        <li><a href="Service">IT Consulting</a></li>
+                        <li><a href="Service">Bookkeeping Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <span>Mount Balcary Community, Monrovia, Liberia</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        <span>members@jetrowebdevelopment.org</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <span>+231-777-508-174</span>
+                    </div>
+                </div>
             </div>
         </div>
+        
         <div class="footer-bottom">
-            <p>Copyright © 2026 Jetro Web Development. Licensed under Creative Commons Attribution - No Derivative Works 3.0</p>
+            <div class="footer-bottom-content">
+                <p>&copy; 2026 Jetro Web Development. All rights reserved.</p>
+                <p>Licensed under Creative Commons Attribution - No Derivative Works 3.0</p>
+            </div>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
         </div>
-    </footer>
-<script src="static/JS/ourmentor.js"></script>
+    </div>
+</footer>
+<script>
+function toggleMentor(button) {
+    const card = button.closest('.mentor-card');
+    const fullText = card.querySelector('.mentor-full');
+    const buttonText = button.textContent.trim();
+    
+    if (fullText.style.display === 'none' || fullText.style.display === '') {
+        fullText.style.display = 'block';
+        button.textContent = 'Read Less';
+        button.style.background = 'linear-gradient(135deg, var(--coop-blue) 0%, #1e40af 100%)';
+    } else {
+        fullText.style.display = 'none';
+        button.textContent = 'Read More';
+        button.style.background = 'linear-gradient(135deg, var(--coop-orange) 0%, #ea580c 100%)';
+    }
+}
+
+// Add smooth scroll behavior
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Add parallax effect to hero particles
+window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    const particles = document.querySelectorAll('.particle');
+    
+    particles.forEach((particle, index) => {
+        const speed = 0.5 + (index * 0.1);
+        particle.style.transform = `translateY(${scrolled * speed}px)`;
+    });
+});
+</script>
 </body>
 </html>
